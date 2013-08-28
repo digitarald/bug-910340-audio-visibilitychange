@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "name": "Audio Stop",
+  "description": "Just a packaged App",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Mozilla Labs",
+    "url": "http://www.mozillalabs.com"
+  }
+}
