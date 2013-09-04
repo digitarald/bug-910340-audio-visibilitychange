@@ -1,10 +1,18 @@
 {
-  "version": "1.0",
-  "name": "Audio Stop",
-  "description": "Just a packaged App",
-  "launch_path": "/index.html",
-  "developer": {
-    "name": "Mozilla Labs",
-    "url": "http://www.mozillalabs.com"
-  }
+	"version": "1.0",
+	"name": "Audio Stop",
+	"description": "Just a packaged App",
+	"launch_path": "/index.html",
+	"icons": {
+		"128": "https://cdn1.iconfinder.com/data/icons/crystalproject/128x128/apps/bug.png"
+	},
+	"developer": {
+		"name": "Mozilla Labs",
+		"url": "http://www.mozillalabs.com"
+	},
+	"permissions": {
+		"audio-channel-content": {
+			"description": "Playing audio"
+		}
+	}
 }
